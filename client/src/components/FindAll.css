@@ -1,0 +1,53 @@
+.findall-btn {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #c1c96e;
+  border-radius: 30px;
+  width: 50%;
+  margin: 20px auto;
+  box-shadow: 0 20px 30px rgba(3, 3, 3, 0.918);
+}
+
+.findall-btn h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.findall-btn form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.findall-btn button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: rgb(13, 6, 6);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.findall-btn button:hover {
+  background-color: #cfd7dd;
+}
+
+.findall-btn table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.findall-btn th, .findall-btn td {
+  border: 3px solid #080505;
+  padding: 12px;
+  text-align: center;
+}
+
+.findall-btn th {
+  background-color: #d79f44;
+  color: #030101;
+}
+

@@ -1,0 +1,57 @@
+.card {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #e8c5da;
+  box-shadow: 0 20px 30px rgba(7, 4, 4, 0.964);
+  border-radius: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.card h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #0b0606;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: rgb(16, 8, 8);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ced6e2;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  height: 1px;
+  background: #ccc;
+}
+
+h4 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #444;
+  margin: 6px 0;
+}
