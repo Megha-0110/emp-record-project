@@ -6,6 +6,9 @@ const app = express();
 
 //Middleware to parse JSON bodies
 app.use(express.json());
+
+// new port 
+const port = 'https://emp-record-project-1.onrender.com';
 app.use(cors());
 
 //Connect to Mongodb
@@ -120,6 +123,6 @@ app.put('/api/employees/:id', async(req,res)=>{
         }
     });
 
-app.listen(3001,()=>{
+app.listen(port,()=>{
     console.log('🚀Server running on http://localhost:3001');
 });
